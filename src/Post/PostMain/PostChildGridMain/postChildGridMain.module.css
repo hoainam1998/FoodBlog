@@ -1,0 +1,40 @@
+.layoutPostChildGridMain {
+    padding: 1rem 0;
+}
+
+.postChild {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ColumnOne,.ColumnTwo{
+    width: 48%;
+}
+
+.btn_loadmore {
+    margin: 1.5rem auto !important;
+    display: block;
+    width: 50%;
+    padding: .6rem 0 !important;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--background);
+    border: none;
+    cursor: pointer;
+}
+
+@media(max-width:767px){
+    .postChild {
+        flex-direction: column;
+    }
+
+    .ColumnOne,.ColumnTwo{
+        width: 100%;
+    }
+
+    .btn_loadmore {
+        width: 70%;
+    }
+}

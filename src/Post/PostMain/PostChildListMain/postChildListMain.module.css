@@ -1,0 +1,33 @@
+.btn_pagination {
+    padding-top: 1rem !important;
+    margin-bottom: 2rem;
+}
+
+.btn_pagination button {
+    width: 45px; height: 45px;
+    text-align: center;
+    font-weight: 500;
+    opacity: .9;
+    background-color: var(--background);
+    margin-left: .5rem !important;
+    border: none;
+    transition: all .5s;
+    transition: visibility 0s;
+}
+
+.btn_pagination button:hover {
+    color: white;
+    background-color: var(--primarycolor);
+}
+
+.btn_pagination button:hover:first-child,
+.btn_pagination button:hover:last-child {
+    color: white;
+}
+
+.btn_pagination button:last-child,
+.btn_pagination button:first-child {
+    width: 65px;
+    color: var(--primarycolor);
+    text-transform: uppercase;
+}

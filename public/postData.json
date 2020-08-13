@@ -1,0 +1,73 @@
+[
+    {
+        "id":"1",
+        "title":"recipes",
+        "images":["post1.jpeg","post2.jpeg"],
+        "subTitle":"The Best Weeknight Baked Potatoes, 3 Creative Ways",
+        "content":"Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui."
+    },
+    {
+        "id":"2",
+        "title":"dinner",
+        "images":["post3.jpeg","post4.jpeg"],
+        "subTitle":"17 Perfect Gifts for Your Vegan Friend Because Sometimes...",
+        "content":"Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui."
+    },   
+    {
+        "id":"3",
+        "title":"vegan desserts",
+        "images":["post5.jpeg","post6.jpeg"],
+        "subTitle":"The Best Grass Stain Remover Is Already In Your Pantry",
+        "content":"Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui."
+    },
+    {
+        "id":"4",
+        "title":"drink",
+        "images":["post1.jpeg","post3.jpeg"],
+        "subTitle":"A 5-Minute Peach Mug Cobbler That Just So Happens to...",
+        "content":"Proin eget tortor risus. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+    },
+    {
+        "id":"5",
+        "title":"smoothie",
+        "images":["post2.jpeg","post1.jpeg"],
+        "subTitle":"This 2-Ingredient Spread Makes Any Egg Sandwich So Much Better",
+        "content":"Nulla porttitor accumsan tincidunt. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem."
+    },
+    {
+        "id":"6",
+        "title":"vegan desserts",
+        "images":["post6.jpeg","post4.jpeg"],
+        "subTitle":"Fresh Herb Polenta with Parsnip Chips and Maple Butter",
+        "content":"Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus suscipit tortor eget felis porttitor volutpat."
+    },
+    {
+        "id":"7",
+        "title":"smoothie",
+        "images":["post3.jpeg","post5.jpeg"],
+        "subTitle":"This 2-Ingredient Spread Makes Any Egg Sandwich So Much Better",
+        "content":"Nulla porttitor accumsan tincidunt. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem."
+    },
+    {
+        "id":"8",
+        "title":"drink",
+        "images":["post2.jpeg","post6.jpeg"],
+        "subTitle":"A 5-Minute Peach Mug Cobbler That Just So Happens to...",
+        "content":"Proin eget tortor risus. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+    },
+    {
+        "id":"9",
+        "title":"recipes",
+        "images":["post3.jpeg","post2.jpeg"],
+        "subTitle":"The Best Weeknight Baked Potatoes, 3 Creative Ways",
+        "content":"Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui."
+    },
+    {
+        "id":"10",
+        "title":"dinner",
+        "images":["post2.jpeg","post5.jpeg"],
+        "subTitle":"17 Perfect Gifts for Your Vegan Friend Because Sometimes...",
+        "content":"Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui."
+    }
+    
+]

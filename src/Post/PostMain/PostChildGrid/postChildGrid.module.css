@@ -1,0 +1,81 @@
+.post_item img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.post_item {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.date {
+    position: absolute;
+    top: 3%; left: 3%;
+    padding: .5rem 1rem !important;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.date span:first-child {
+    color: black;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 14px;
+    vertical-align: -10px;
+}
+
+.date span:last-child {
+    line-height: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--datetextcolor);
+}
+
+.small_title {
+    text-align: center;
+    margin: 1.5rem 0 .5rem !important;
+    color: var(--primarycolor);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.small_title span:nth-child(2) {
+    margin: 0 .5rem !important;
+    color: #ccc;
+}
+
+.author_read_comment {
+    margin: .3rem 0 .6rem !important;
+    text-align: center;
+}
+
+.author_read_comment span {
+    color: var(--textcolor);
+    font-size: 12px;
+}
+
+.author_read_comment span:first-child {
+    font-size: 12px;
+}
+
+.author_read_comment span:first-child:after {
+    content: 'Admin';
+    margin-left: .2rem !important;
+    color: black;
+}
+
+.author_read_comment span:nth-child(2),
+.author_read_comment span:nth-child(4) {
+    margin: 0 .5rem !important;
+}
+
+.post_item p {
+    color: #444;
+    font-size: 14px;
+    letter-spacing: .5px;
+    text-align: center;
+}

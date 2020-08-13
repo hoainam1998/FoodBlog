@@ -1,0 +1,610 @@
+.background {
+    width: 100%;
+    height: 100vh;
+}
+
+.contentSinglePost {
+    position: relative;
+    width: 60%;
+    margin: 0 auto !important;
+    padding: 9rem 0 4rem !important;
+}
+
+.btn_social_vertical {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px; left: -10%;
+}
+
+.btn_social_vertical button {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 15px;
+    background-color: var(--background);
+    border: none;
+    margin-bottom: 1rem !important;
+    transition: all .5s;
+}
+
+.btn_social_vertical button:hover {
+    color: white;
+    background-color: var(--primarycolor);
+}
+
+.inforTitle {
+    position: absolute;
+    top: 0%;
+    transform: translateY(-50%);
+    z-index: 2;
+    padding: 2.5rem 3rem !important;
+    background: white;
+    box-shadow: -4px 5px 5px rgba(20, 14, 5, 0.1);
+}
+
+.displayFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxdate {
+    background-color: var(--background);
+    padding: .5rem 1.5rem !important;
+    text-align: center;
+}
+
+.boxdate span:first-child {
+    font-size: 45px;
+    font-weight: bold;
+    line-break: .5rem; 
+}
+
+.boxdate span:last-child {
+    font-size: 30px;
+    line-height: 0;
+    color: var(--textcolor);
+    vertical-align: 10px;
+    text-transform: uppercase;
+}
+
+.titleSinglePost {
+    text-align: left;
+    margin-left: 2rem !important;
+}
+
+.titleSinglePost .marginTitle {
+    margin-top: .5rem !important;
+}
+
+.inforSingPost {
+    color: #444;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    letter-spacing: .5px;
+    line-height: 1.6rem;
+    text-align: left;
+}
+
+/*=============================
+            Recipes
+=============================*/
+
+.recipes {
+    margin: 2rem 0 !important;
+    border: 1px solid #e1e1e1;
+}
+
+.recipes > div {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.titleRecipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1.5rem 2rem 1rem !important;
+    background-color: var(--background);
+}
+
+.titleRecipes div h2 {
+    font-size: 16px;
+    font-family: var(--primaryfont);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.titleRecipes div h2 i {
+    margin-right: .5rem !important;
+}
+
+.titleRecipes div span {
+    font-size: 14px;
+    color: var(--textcolor);
+    line-height: 2.5rem;
+}
+
+.titleRecipes button {
+    padding: .5rem 1.5em;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid var(--primarycolor);
+}
+
+.titleRecipes button i {
+    margin-right: .5rem !important;
+}
+
+.ingredients h5 ,.directions h5 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.directions {
+    border-bottom: none !important;
+}
+
+.ingredients ul {
+    padding-left: 1rem !important;
+}
+
+.directions ol{
+    padding-left: 1rem;
+}
+
+.recipesPadding {
+    padding: 2rem !important;
+}
+
+.recipes h5 {
+    font-family: var(--primaryfont);
+    margin-bottom: 1rem !important;
+    text-transform: uppercase;
+}
+
+.recipes li {
+    position: relative;
+    margin-bottom: .5rem !important;
+    color: #444444;
+}
+
+.ingredients li:last-child {
+    margin-bottom: 0 !important;
+}
+
+.ingredients ul li:before {
+    content: ' ';
+    height: 3px;
+    width: 3px;
+    background-color: black;
+    position: absolute;
+    top: 50%; left: -18px;
+    transform: translate(-50%,0)
+}
+
+/*=============================
+        End Recipes
+=============================*/
+
+/*=============================
+        Content
+=============================*/
+
+.quote {
+    padding: 1.5rem 0;
+    display: flex;
+   align-items: flex-start;
+}
+
+.contentQuote {
+    margin-left: 1rem;
+}
+
+.contentQuote p {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.contentQuote p:hover {
+    text-decoration: none !important;
+}
+
+.author {
+    color: #888;
+    text-transform: uppercase;
+}
+
+.mainTitlePost {
+    font-weight: 400;
+    font-family: var(--primaryfont);
+    font-size: 22px;
+    margin: 1rem 0;
+}
+
+.imgAndContent {
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+}
+
+.imgAndContent img {
+    width: 100%;
+    height: 350px;
+}
+
+.tags {
+    margin: 2rem 0;
+}
+
+.tags::after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+.tag {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    padding: .7rem 1rem;
+    opacity: .7;
+    letter-spacing: .1rem;
+}
+
+.tag:last-child {
+    margin: 0;
+}
+
+/*=============================
+        End Content
+=============================*/
+
+/*=============================
+        Control Post
+=============================*/
+
+.previous_next_post::after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+.nextPost {
+    text-align: right;
+    float: right;
+}
+
+.previousPost {
+    float: left;
+}
+
+.btn_previousPost ,
+.btn_nextPost {
+    background: transparent;
+    border: none;
+    margin-bottom: 2rem;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.btn_previousPost i {
+    margin-right: .7rem;
+}
+
+.btn_nextPost i {
+    margin-left: .7rem;
+}
+
+.layoutItemPost {
+    display: flex;
+    flex-direction: row;
+}
+
+.nextPost .layoutItemPost {
+    flex-direction: row-reverse;
+}
+
+.nextPost .layoutItemPost .newStyleTitle {
+    margin-right: 1rem;
+    margin-left: 0;
+    align-items: flex-end;
+}
+
+.previousPost .layoutItemPost .newStyleTitle  {
+    align-items: flex-start;
+}
+
+.newStyleTitle {
+    margin-left: 1rem;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.newStyleTitle span {
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+.newStyleDate {
+    position: relative;
+    top: 0; left: 0;
+    background: var(--background);
+}
+
+.newStyleLink {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1rem;
+}
+
+/*=============================
+    End Control Post
+=============================*/
+
+/*=============================
+        Comment
+=============================*/
+.comment {
+    margin: 2rem 0;
+}
+
+.caption {
+    font-family: var(--primaryfont);
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2.5rem;
+}
+
+.caption:before {
+    content: ' ';
+    height: 50%; width: 100%;
+    background: #f4952f;
+    opacity: .3;
+    position: absolute;
+    top: 50%;
+}
+
+.commentator {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.imagePerson img {
+    width: 100px; height: 100px;
+    border-radius: 50%;
+}
+
+.contentComment  {
+    margin-left: 1.5rem;
+}
+
+.nameAndLikeShare {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nameAndLikeShare {
+    font-size: 18px;
+}
+
+.name {
+    font-family: var(--primaryfont);
+    font-weight: 300;
+}
+
+.likeAndShare i {
+    opacity: .7;
+    cursor: pointer;
+    transition: all .4s ease
+}
+
+.likeAndShare i:hover {
+    color: var(--primarycolor);
+}
+
+.likeAndShare i:first-child{
+    margin-right: 1rem;
+}
+
+.dateAndComment {
+    color: var(--textcolor);
+    font-size: 13px;
+}
+
+.commentContext {
+    margin: 1rem 0;
+    font-size: 14.5px;
+    color: #444444;
+    line-height: 1.5rem;
+}
+
+.respondents {
+    margin: 1rem 0;
+}
+
+.respondent {
+    padding-left: 4rem;
+    margin-bottom: .5rem;
+}
+
+.imagePersonRespondent img {
+    width: 80px ; height: 80px;
+    border-radius: 50%;
+}
+/*=============================
+        End Comment
+=============================*/
+
+/*=============================
+        Leave a Comment
+=============================*/
+
+.inputToEnterInfor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.inputToEnterInfor input {
+    padding: .8rem 1.2rem;
+    border: 1px solid #e1e1e1;
+}
+
+.contentTextComment{
+    margin: 1rem 0;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+    width: 100%;
+    height: 150px;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.4rem;
+}
+
+.formComment input[type="submit"] {
+    padding: 1rem 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+    background: var(--primarycolor);
+    border: none;
+}
+
+/*=============================
+        End Leave a Comment
+=============================*/
+
+/*=============================
+        About Author
+=============================*/
+
+.previous_next_post {
+    margin-top: 3rem;
+}
+
+.aboutAuthor {
+    padding: 2rem;
+    margin: 3rem 0;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.inforAuthor {
+    margin-left: 2rem;
+}
+
+.contentMessageFromAuthor {
+    margin: .5rem 0;
+    color: #444444;
+    line-height: 1.7rem;
+    font-size: 14px;
+}
+
+.imgAuthor {
+    width: 100px; height: 100px;
+    border-radius: 50%;
+}
+
+.authorName {
+    font-family: var(--primaryfont);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btns_contactAuthor {
+    margin-top: 1.2rem;
+}
+
+.btns_contactAuthor::after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+.btns_contactAuthor .iconContact {
+    display: inline-block;
+    width: 40px; height: 40px;
+    background-color: #e1e1e1;
+    text-align: center;
+    padding-top: .6rem;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+
+/*=============================
+    End About Author
+=============================*/
+
+@media(max-width:768px){
+     .contentSinglePost {
+        width: 90%;
+    }
+
+    .btn_social_vertical {
+        flex-direction: row;
+        position: relative;
+        top: 0; left: 0;
+    }
+
+    .btn_social_vertical button {
+        margin-right: 1rem;
+    }
+}
+
+@media(max-width:767px){
+
+    .inforTitle {
+        padding: 1rem !important;
+    }
+
+    .titleRecipes {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 12px;
+    }
+
+    .titleRecipes button {
+        font-size: 12px;
+        padding: .5rem 1rem;
+        font-weight: 600;
+    }
+
+    .imgAndContent {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        grid-row-gap: 20px;
+    }
+
+    .aboutAuthor {
+        padding: 1rem;
+    }
+
+    .inforAuthor {
+        margin-left: 1rem;
+    }
+
+    .iconContact {
+        margin-bottom: .5rem;
+    }
+
+    .inputToEnterInfor {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+}

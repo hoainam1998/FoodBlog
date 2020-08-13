@@ -1,0 +1,163 @@
+.signIn {
+    display: none; 
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 2;
+    text-align: center;
+    overflow: auto;
+}
+
+/*===================================
+            Sign Up Content 
+===================================*/
+
+.signInContent {
+    width: 50%;
+    margin: 10% auto;
+}
+
+.offer {
+    color: white;
+    line-height: 1.6rem;
+}
+
+.signInBox {
+    margin-top: 1.7rem;
+    background: white;
+}
+
+.contentBoxSignUpTags {
+    display: none;
+    padding: 1rem 2rem;
+}
+
+.btns_tags button{
+    width: 50%;
+    background: transparent;
+    padding: .7rem 0;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.signInWidthSocial {
+    display: flex;
+    flex-direction: column;
+}
+
+.btns_social {
+    display: block;
+    margin: 1rem 0;
+    padding: 0 .5rem;
+}
+
+.btns_social span {
+    display: inline-block;
+    width: 45px; height: 45px;
+    border-radius: 50%;
+    padding-top: .7rem;
+    background: pink;
+    margin-right: .5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.btns_social span:nth-child(1) {
+    background: #1369c2;
+}
+
+.btns_social span:nth-child(2) {
+    background: #24c9ec;
+}
+
+.btns_social span:nth-child(3) {
+    margin-right: 0;
+    background: #d41623;
+}
+
+.formSignIn {
+    padding: .5rem 0;
+}
+
+.formSignIn input {
+    display: block;
+    width: 100%;
+    margin: .7rem 0;
+    padding: .7rem;
+    border: 1px solid var(--background)
+}
+
+.policy {
+    text-align: left;
+    color: #444444;
+    cursor: pointer;
+}
+
+.policy input{
+   display: inline-block;
+   width: auto;
+   margin-right: .5rem;
+}
+
+.formSignIn input[type="submit"] {
+    display: inline-block;
+    width: auto;
+    border: none;
+    background: var(--primarycolor);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+
+/*===================================
+        End Sign Up Content 
+===================================*/
+
+/*===================================
+        Sign In Content 
+===================================*/
+.contentBoxSignInTags {
+    padding: 1rem 2rem;
+}
+
+/*===================================
+        End Sign In Content 
+===================================*/
+
+/*===================================
+                Close
+===================================*/
+
+.closeSignIn {
+    position: absolute;
+    background: transparent;
+    border: none;
+    top: 40px; right: 40px;
+}
+
+.closeSignIn img {
+    width: 100px; height: 100px;
+}
+
+/*===================================
+            End Close
+===================================*/
+
+@media(max-width:768px){
+    .signInContent {
+        width: 80%;
+    }
+
+    .closeSignIn {
+        top: 0; right: 10px;
+    }
+
+    .closeSignIn img {
+        width: 50px; height: 80px;
+    }
+}

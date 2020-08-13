@@ -1,0 +1,131 @@
+.post_main {
+    width: 70%;
+}
+
+.post_item {
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.post_item img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.author_read_comment {
+    margin: .3rem 0 .6rem !important;
+    text-align: center;
+}
+
+.author_read_comment span {
+    color: var(--textcolor);
+    font-size: 12px;
+}
+
+.author_read_comment span:first-child {
+    font-size: 12px;
+}
+
+.author_read_comment span:first-child:after {
+    content: 'Admin';
+    margin-left: .2rem !important;
+    color: black;
+}
+
+.author_read_comment span:nth-child(2),
+.author_read_comment span:nth-child(4) {
+    margin: 0 .5rem !important;
+}
+
+.post_item p {
+    color: #444;
+    font-size: 14px;
+    letter-spacing: .5px;
+    text-align: center;
+}
+
+.post_item button {
+    display: block;
+    padding: .5rem 1.5rem .3rem !important;
+    font-family: var(--buttonfont); 
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid var(--primarycolor);
+    cursor: pointer;
+    margin: 1rem auto;
+}
+
+.social {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--textcolor);
+}
+
+.social span {
+    margin-right: 1.5rem !important;
+}
+
+.social span i {
+    color: #111;
+    margin: 0 .3rem !important;
+}
+
+.social span:nth-child(2):after {
+    content: '82';
+}
+
+.social span:nth-child(3):after {
+    content: '24';
+}
+
+.social span:nth-child(4):after {
+    content: '08';
+}
+
+.mainTitle {
+    text-transform: capitalize;
+    padding-bottom: 2.5rem  !important;
+}
+
+.mainTitle >div {
+    margin-bottom: 2.5rem !important;
+}
+
+.mainTitle h1 {
+    font-family: var(--primaryfont);
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: .7rem !important;
+}
+
+.mainTitle h1 span:last-child {
+    color: var(--primarycolor);
+}
+
+.mainTitle h2 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.mainTitle h2 a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #444444;
+}
+
+.mainTitle h2 span {
+    color: #888888;
+}
+
+.img_date {}
+
+@media(max-width:767px){
+    .post_main {
+        width: 100%;
+    }
+}
+
+

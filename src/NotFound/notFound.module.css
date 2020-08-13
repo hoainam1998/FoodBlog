@@ -1,0 +1,72 @@
+.notFound {
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(0,0,0,0.8);
+    width: 100vw; height: 100vh;
+    z-index: 1;
+}
+
+.fourzerofour {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    width: 70%;
+}
+
+.fourzerofour h1 {
+    font-family: "Unna", serif;
+}
+
+.titlefourzerofour {
+    font-size: 200px;
+    line-height: 12rem;
+}
+
+.caption {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.sorry {
+    margin: 1rem 0;
+    color: #c4c4c4;
+    font-size: 15px;
+}
+
+.search {
+    background: var(--primarycolor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .9rem 1rem;
+    width: 70%;
+    margin: 2rem auto 0;
+}
+
+.search input {
+    color: white;
+    border: none;
+    background: inherit;
+    font-size: 15px;
+    width: 100%;
+}
+
+.search input::placeholder {
+    color: white;
+}
+
+.search i {
+    cursor: pointer;
+}
+
+@media(max-width:767px){
+    .fourzerofour {
+        width: 92%;
+    }
+
+    .search {
+        width: 100%;
+    }
+}
