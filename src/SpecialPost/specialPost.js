@@ -4,7 +4,7 @@ import style from './specialPost.module.css';
 function SpecialPost() {
     return (
         <div className={style.specialPostContainer}>
-            <img src={require("D:/React/foodeiblog/src/images/post4.jpeg")} alt="specialPostimg"></img>
+            <img src={require("./images/post4.jpeg")} alt="specialPostimg"></img>
             <div className={style.content}>
                  <div className={style.special_post_date}>
                     <span>08</span><br/>
