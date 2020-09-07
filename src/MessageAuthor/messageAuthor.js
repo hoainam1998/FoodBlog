@@ -5,7 +5,7 @@ function MessageAuthor() {
 
     return (
         <div className={style.message}>
-            <img src={require(`D:/React/foodeiblog/src/images/quote.png`)} alt="quote"></img>
+            <img src={require(`../images/quote.png`)} alt="quote"></img>
             <p>Nulla porttitor accumsan tincidunt.
                 Curabitur arcu erat, accumsan id imperdiet et,
                 porttitor at sem. Donec sollicitudin molestie malesuada.
